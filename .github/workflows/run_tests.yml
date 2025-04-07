@@ -84,5 +84,5 @@ jobs:
       - name: Compile and Run Java Program
         if: ${{ env.language == 'Java' }}
         run: |
-          javac -d . solutions/.java tests/.java  # Compile all Java files
+          javac -d . solutions/*.java tests/*.java
           java -cp . tests.Test  # Ensure correct package path
