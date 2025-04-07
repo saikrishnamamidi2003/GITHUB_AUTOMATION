@@ -8,3 +8,4 @@ int missingNumber(int* nums, int n)
     return total-sum;
       
 } 
+ 
