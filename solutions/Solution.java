@@ -8,6 +8,7 @@ public class Solution {
         for (int num : nums) {
             actualSum += num;
         }
+        
         return (int)(expectedSum - actualSum);
     }
 }
