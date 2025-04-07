@@ -1,7 +1,6 @@
 class Solution:
 
     def missingNumber(self, nums):
-
         n = len(nums)
 
         expected_sum = n * (n + 1) // 2
